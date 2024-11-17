@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "sources": {
+      "openstreetmap": {
+        "type": "vector",
+        "tiles": ["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"]
+      }
+    },
+    "layers": [
+      {
+        "id": "background",
+        "type": "background",
+        "paint": {
+          "background-color": "#000000"
+        }
+      }
+    ]
+}
